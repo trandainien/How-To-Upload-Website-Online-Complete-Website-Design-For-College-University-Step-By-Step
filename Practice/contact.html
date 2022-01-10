@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/dc17849946.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <div class="nav-links">
+        <img src="eduford_img/logo.png" alt="" />
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+      <h1>Contact Us</h1>
+    </section>
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.882637450038!2d106.64224071480055!3d10.743527692343863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e6385ea8f85%3A0xa2f5c09130a517f!2zUGjhuqFtIFBow7ogVGjhu6ksIFF14bqtbiA2LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1641816550137!5m2!1svi!2s"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <section class="inform">
+      <div class="row">
+        <div class="inform-col">
+          <div>
+            <i class="fas fa-house-user"></i>
+            <div>
+              <h3>Pham Phu Thu Street P4 Q6</h3>
+              <p>Ho Chi Minh city, Distreet 6</p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-phone-square-alt"></i>
+            <div>
+              <h3>0999 999 999</h3>
+              <p>Monday to Saturday, 10AM to 6PM</p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-envelope-open-text"></i>
+            <div>
+              <h3>tdnien21@clc.gitus.edu.vn</h3>
+              <p>Email us your query</p>
+            </div>
+          </div>
+        </div>
+        <form action="">
+          <div class="inform-col">
+            <input type="text" placeholder="Enter your name" />
+            <input type="email" placeholder="Enter your email" />
+            <input type="text" placeholder="Enter your subject" />
+            <textarea rows="8" placeholder="message"></textarea>
+            <a href="" class="hero-btn red-btn">SEND MESSAGE</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="about-us">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </section>
+    <section class="footer">
+      <div class="icons">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made with <i class="far fa-heart"></i> by Easy Tutorial</p>
+    </section>
+    <script>
+      function showMenu() {
+        var navLinks = document.querySelector(".nav-links");
+        navLinks.style.right = "0px";
+      }
+      function hideMenu() {
+        var navLinks = document.querySelector(".nav-links");
+        navLinks.style.right = "-300px";
+      }
+    </script>
+  </body>
+</html>

@@ -112,11 +112,14 @@ p {
 .courses {
   text-align: center;
   margin-top: 4%;
+  width: 80%;
+  margin: auto;
 }
 
 .row {
+  margin-top: 5%;
   display: flex;
-  margin: 5vh 10vh;
+  justify-content: space-between;
 }
 
 .courses-col {
@@ -128,7 +131,11 @@ p {
   padding: 30px;
   transition: 0.5s;
 }
-
+.courses h2,
+.facilities h2,
+.about-us h2 {
+  font-size: 40px;
+}
 .courses-col h3 {
   text-align: center;
 }
@@ -166,7 +173,7 @@ p {
     padding: 0px;
     z-index: 2;
     background: #f44848;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -300px;
     width: 50%;
@@ -245,6 +252,32 @@ p {
     width: 75%;
     margin: 0 auto;
   }
+
+  .certificate {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certificate-col {
+    margin: 2vh 0;
+  }
+
+  .certificate-col h2 {
+    margin-top: 20px;
+  }
+}
+
+.facilities h2 {
+  margin-bottom: 1.2vh;
+}
+
+.facilities h3 {
+  margin-top: 3vh;
+}
+
+.facilities p {
+  color: #777;
+  margin-top: 5px;
 }
 
 .campus .text-box {
@@ -310,6 +343,7 @@ p {
 }
 
 .facilities {
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   margin-top: 8vh;
@@ -416,4 +450,175 @@ p {
 
 .footer p {
   font-size: 13px;
+}
+
+.header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("/eduford_img/background.jpg");
+  height: 50vh;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.aboutus {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.aboutus-col {
+  flex-basis: 48%;
+}
+
+.aboutus img {
+  width: 100%;
+}
+
+.aboutus h2 {
+  margin-bottom: 2vh;
+  font-size: 30px;
+}
+
+.aboutus p {
+  color: #777;
+}
+
+.red-btn {
+  color: #f44848;
+  border: 1px solid #f44848;
+  width: 40%;
+  margin: 3vh 0;
+}
+
+.red-btn:hover {
+  color: #fff;
+}
+
+.about-us {
+  text-align: center;
+  margin: 15vh 2vh 0;
+}
+
+.about-us h1 {
+  font-size: 20px;
+}
+
+.about-us p {
+  font-size: 15px;
+  color: #777;
+}
+
+.certificate {
+  width: 80%;
+  margin: auto;
+}
+
+.certificate-col {
+  flex-basis: 50%;
+}
+
+.certificate-col div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 2vh;
+}
+.certificate-col span {
+  background: #f44848;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+}
+.certificate img {
+  width: 100%;
+}
+
+.certificate-col p {
+  color: #777;
+}
+
+.big {
+  flex: 60%;
+}
+
+.small {
+  margin: 0 4vh;
+  flex: 20%;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  border: 2px solid #c8c8c8;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.comment h2 {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  background: #f0f0f0;
+}
+
+.comment a {
+  position: relative;
+  left: 3%;
+}
+
+.map {
+  width: 80%;
+  margin: auto;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+.inform {
+  width: 75%;
+  margin: auto;
+}
+
+.inform-col {
+  flex-basis: 45%;
+}
+
+.inform-col input,
+.inform-col textarea {
+  width: 100%;
+  margin-bottom: 2vh;
+  padding: 10px 20px;
+}
+
+.inform-col div {
+  display: flex;
+  margin-bottom: 2vh;
+}
+.inform-col div div {
+  flex-direction: column;
+}
+
+.inform-col i {
+  font-size: 22px;
+  color: #f44848;
+  margin-right: 5vh;
 }

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/dc17849946.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <div class="nav-links">
+        <img src="eduford_img/logo.png" alt="" />
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+      <h1>Our Certificate & Online Programs for 2022</h1>
+    </section>
+    <section class="certificate">
+      <div class="row">
+        <div class="big certificate-col">
+          <img src="eduford_img/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs for 2022</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          </p>
+          <br />
+          <p>
+            incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+          </p>
+          <br />
+          <p>
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet
+          </p>
+
+          <div class="comment">
+            <h2>Leave a comment</h2>
+            <form class="comment-form" action="">
+              <input type="text" placeholder="Enter name" />
+              <input type="email" placeholder="Email address" />
+              <textarea name="" id="" cols="" rows="8"></textarea>
+              <a href="" class="hero-btn red-btn">POST COMMENT</a>
+            </form>
+          </div>
+        </div>
+        <div class="small certificate-col">
+          <span>Post Categories</span>
+          <div>
+            <p>Business Analytics</p>
+            <p>21</p>
+          </div>
+          <div>
+            <p>Data Science</p>
+            <p>28</p>
+          </div>
+          <div>
+            <p>Machine Learning</p>
+            <p>15</p>
+          </div>
+          <div>
+            <p>Computer Science</p>
+            <p>34</p>
+          </div>
+          <div>
+            <p>AutoCAD</p>
+            <p>42</p>
+          </div>
+          <div>
+            <p>Journalism</p>
+            <p>22</p>
+          </div>
+          <div>
+            <p>Commerce</p>
+            <p>30</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </section>
+    <section class="footer">
+      <div class="icons">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made with <i class="far fa-heart"></i> by Easy Tutorial</p>
+    </section>
+    <script>
+      function showMenu() {
+        var navLinks = document.querySelector(".nav-links");
+        navLinks.style.right = "0px";
+      }
+      function hideMenu() {
+        var navLinks = document.querySelector(".nav-links");
+        navLinks.style.right = "-300px";
+      }
+    </script>
+  </body>
+</html>
